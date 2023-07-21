@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
 
     // [SerializeField]
-    // private float _MovSpeed;
+    //private float _MovSpeed;
 
     // [SerializeField]
     // private float _fireRate;
@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     // [SerializeField]
     // private GameObject _laserTrio;
 
-    // [SerializeField]
+    // [SerializeField] 
     // private GameObject _laserDuo;
 
     // private bool _canTripleShot = false;
@@ -91,7 +91,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         PlayerJumps();
-        playerCanvas.transform.position = transform.position;
+        //playerCanvas.transform.position = transform.position;
     }
 
     private void PlayerJumps()
