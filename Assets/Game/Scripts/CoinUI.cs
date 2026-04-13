@@ -16,9 +16,6 @@ public class CoinUI : MonoBehaviour
 
     void Start()
     {
-        // var pos = transform.position;
-        // pos.y = -1f;
-        // transform.position = pos; 
         transform.position = new Vector2(transform.position.x, -2.5f);
         var txtComponent = GetComponent<TextMeshProUGUI>();
         transform.DOMove(new Vector3(transform.position.x, (transform.position.y + distanceTween)), timeTween)

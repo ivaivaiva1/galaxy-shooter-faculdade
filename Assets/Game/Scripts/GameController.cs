@@ -86,6 +86,8 @@ public class GameController : MonoBehaviour
         StartCoroutine("StartGame");
     }
 
+
+
     private void SetDifficult()
     {
         if(MenuController.isHard == true)
@@ -113,6 +115,8 @@ public class GameController : MonoBehaviour
         }
     }
 
+
+
     // Update is called once per frame
     void Update()
     {
@@ -131,6 +135,8 @@ public class GameController : MonoBehaviour
         //whereSpawn = Random.Range(0,2);
     }
 
+
+
     private void GameSpeed()
     {
         if (isGame == true)
@@ -147,6 +153,8 @@ public class GameController : MonoBehaviour
            _renderGalaxy.material.SetVector("_Scroll", new Vector4(0f, galaxySpeed, 0f, 0.01f));
         }
     }
+
+
 
     IEnumerator StartGame()
     {

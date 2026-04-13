@@ -11,5 +11,4 @@ public class AutoDestroy : MonoBehaviour
     {
         Destroy(gameObject, timetoDestroy);
     }
-
 }
