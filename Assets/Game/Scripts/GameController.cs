@@ -140,7 +140,7 @@ public class GameController : MonoBehaviour
                 increaseScore = increaseScore + inscreaseRate * Time.deltaTime;
             }
             ScoreValue = ScoreValue + increaseScore * Time.deltaTime;
-            scoreText.text = ScoreValue.ToString("#");
+            scoreText.text = (ScoreValue * 10).ToString("#");
         }
         if(ScoreValue < finalScore)
         {
